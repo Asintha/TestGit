@@ -1,1 +1,44 @@
 this is my first text file
+
+Introduction and Keywords on Git
+
+git add / git add all(git add.) - only the file u selected will be gone to the stagd area-----
+commit(gitcommit)(gitcommit/m>>sending a message with the committing)
+
+gitpush - pushing files from local reposatery to the remote
+gitpull - pulling back files/changes from remote to local
+
+gitclone - pulling files from remote to local for the first time
+
+**configuring SSH with gitHub (Cloning)**
+
+ 
+--------------pushing---------------
+
+git push origin master
+
+origin- name of remote
+master- 
+
+
+
+git init - intializing the local folder to a git repositary
+
+branching - need to keep the master branch safe and fresh, without any compilation errors or bugs,
+	    so adding changed codes to a seperate branch for a each member of a group is much better
+
+	    then u can merge those changes to the master branch
+git checkout -b branch name
+
+**merge conflicts**
+
+Resloving
+
+-----------------------------------------------------------------------------------------------------
+
+**git rebase**
+
+****git pull --rebase //otherwise you will be having conflicts*****
+
+clears connection with test to master (it was connected through commit 1)
+then connects test with master through commit 2
